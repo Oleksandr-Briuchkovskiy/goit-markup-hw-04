@@ -103,7 +103,7 @@ header .container {
   padding-bottom: 24px;
 }
 
-.list-nav.current::after {
+.current::after {
   content: "";
   position: absolute;
   left: 0;
