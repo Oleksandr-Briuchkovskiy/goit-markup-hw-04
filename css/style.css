@@ -79,6 +79,11 @@ header .container {
   gap: 40px;
 }
 
+.list-nav .list-nav-item .current {
+  position: relative;
+  color: #404bbf;
+}
+
 .list-nav .link {
   color: #2e2f42;
   line-height: 1.5;
@@ -91,16 +96,6 @@ header .container {
 
 .list-nav .link:hover {
   color: #404bbf;
-}
-
-.current {
-  position: relative;
-  color: #404bbf;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .current::after {
